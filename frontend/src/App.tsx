@@ -12,7 +12,7 @@ function App() {
         <div className="container">
           <h1 className="text-primary py-3">Dashboard de Vendas</h1>
 
-          <div className="row px-3 bg-white">
+          <div className="row px-4 bg-white">
             <div className="col-sm-6">
               <h5 className="text-center text-primary"> Taxa de sucesso (%)</h5>
               <BarChart />
@@ -23,8 +23,8 @@ function App() {
             </div>
           </div>
 
-          <div className="py3">
-            <h2 className="text-primary">Todas Vendas</h2>
+          <div className="py-3">
+            <h1 className="text-primary">Todas Vendas</h1>
           </div>
 
           <DataTable />
