@@ -6,14 +6,14 @@ const Home = () => {
     return (
         <>
             <NavBar />
-            <div className="container">
+            <div className="container bg-dark py-3">
                 <div className="jumbotron">
-                    <h1 className="display-4">DSVendas</h1>
-                    <p className="lead">Analise o desempenho das suas vendas por diferentes perspectivas</p>
+                    <h1 className="display-4 text-dark"><b>DSVendas</b></h1>
+                    <p className="lead text-dark"><b>Analise o desempenho das suas vendas por diferentes perspectivas</b></p>
                     <hr />
-                    <p>Esta aplicação consiste em exibir um dashboard a partir de dados fornecidos por um back end construído com Spring Boot.</p>
+                    <p className="text-dark"><b>Esta aplicação consiste em exibir um dashboard a partir de dados fornecidos por um back end construído com Spring Boot.</b></p>
                     <Link className="btn btn-primary btn-lg" to="/dashboard">
-                        Acessar Dashboard
+                        <b>Acessar Dashboard</b>
                     </Link>
                 </div>
             </div>
